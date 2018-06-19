@@ -1,3 +1,5 @@
 name: Zoe Getman-Pickering
 description: Homepage for Zoe Getman-Pickering
 paginate: 10
+
+theme: jekyll-theme-cayman
