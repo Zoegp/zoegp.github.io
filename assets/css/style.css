@@ -19,6 +19,15 @@
 		background: #161616;
 	}
 
+	header2
+	{
+		font-family: 'Roboto', sans-serif;
+		font-size: 11pt;
+		font-weight: 300;
+		line-height: 1.75em;
+		color: #FEFEFE;
+	}
+
 	body,input,textarea,select
 	{
 		font-family: 'Roboto', sans-serif;
