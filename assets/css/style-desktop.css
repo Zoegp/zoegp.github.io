@@ -37,7 +37,7 @@
 
 	#header
 	{
-		padding: 10em 0 6em 0;
+		padding: 10em 0 0em 0;
 	}
 
 	.homepage #header
@@ -115,4 +115,4 @@
 		padding: 1em 4em;
 		line-height: 1.5em;
 		font-size: 1.8em;
-	}	
+	}
