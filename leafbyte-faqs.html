@@ -109,7 +109,7 @@ TODO TODO TODO ImageJ, BioLeaf, explain pros and cons. others?
 We recommend using a matte screen protector or acetate sheet such as those found <a href="https://www.amazon.com/gp/product/B07219ZSFT/ref=oh_aui_search_detailpage?ie=UTF8&psc=1">here</a> to keep the leaf flat. 
 <br /><br /><font size="4">
 <b>Can I use LeafByte to measure the surface area of flowers, petals, or other leaf tissue?</b><br /></font>
-Yes! If you are trying to measure light-colored leaf tissue such as white flower petals, you will need to use a black background with white dots and set <b>Use Black Background</b> in <b>Settings</b>.
+Yes! If you are trying to measure light-colored leaf tissue such as white flower petals, you will need to use a black background with white dots and set <b>Use Black Background</b> in the <b>Settings</b>.
 <br /><br /><font size="4">
 <b>What if most of the leaf was eaten?</b><br /></font>
 LeafByte can’t tell where the leaf was after it's been eaten. It’s up to the user to draw in missing margins. If you are afraid most or all of the leaf will be eaten, we recommend taking before and after measurements and subtracting values to get leaf area consumed. This is often faster than drawing missing leaf margins in the app.
@@ -127,23 +127,24 @@ This warning may be displayed on the background removal page if small adjustment
 You can use iTunes to get files to your computer regardless of your iOS version.
 <br /><br />
 <font size="4"><b>How do I change which Google account my data is being saved to?</b><br /></font>
-In the <b>Settings</b>, 
+In the <b>Settings</b>, choose <b>Sign out of Google</b>, then re-select <b>Google Drive</b> as your save location. You'll be prompted to sign in again, and you can do so with your preferred account.
 <br /><br />
-<font size="4"><b>Why does LeafByte keep trying to scan barcodes?</b><br /></font>
-Barcodes are enabled in settings
+<font size="4"><b>Why does LeafByte keep trying to scan barcodes when I just want to take a picture?</b><br /></font>
+LeafByte has an optional setting to scan a barcode before each photo, useful for folks who mark each sample with a barcode. To disable, go to the <b>Settings</b> and disable <b>Scan Barcodes</b>.
 <br /><br />
 <font size="4"><b>LeafByte is removing the exact wrong part of my image!</b><br /></font>
-Use Black Background in Settings
+This is probably because LeafByte is set to use a black background and you have a white background (or vice versa). In the <b>Settings</b>, toggle <b>Use Black Background</b>.
 <br /><br />
-<font size="4"><b>I need a scale marking!</b><br /></font>
-download here
+<font size="4"><b>I need help making a scale!</b><br /></font>
+You can download a document with scales of different sizes <a href="assets/LeafByte Scale Dots.pdf">here</a>, or make your own (make four dots in a square). Just be sure to measure it before use, and enter the size in the <b>Settings</b>. Size is measured from the center of one dot to another along one side of the square.
 <br /><br />
 <b>How do the calculations work?</b><br /></font>
+TODO TODO
 Longs story short:
 Long explanation:
 <br /><br /><font size="4">
 <b>Why do you use 4 dots instead of a line for a scale?</b><br /></font>
-When we initially built the app, the plan was to use a single line as the scale. However, initial testing determined that photographing the leaf at an angle could result in a 20-40% distortion of the leaf’s absolute area. Having 4 dots in a square allows are app to correct for most of the distortion if you photograph your leaf at an angle. With the square method, taking the picture at a 30 degree angle can lead to a 1-4% distortion of the leaf’s absolute area.
+Early iterations of LeafByte did use a single line as the scale. However, testing determined that photographing the leaf at even a seemgly reasonable angle could result in up to 40% distortion of the leaf’s absolute area. Having 4 dots in a square allows LeafByte to correct for most of the distortion from photographing at an angle. Now, taking the picture at even a 30 degree angle generally only leads to a 1-4% distortion of the leaf’s absolute area (due to seeing more shadow when at an angle).
 <br /><br /><font size="4">
 		
 		<font size="5">
