@@ -5,6 +5,7 @@ title: LeafByte FAQs
 header:
   overlay_color: "#85a266"
   overlay_image: images/Herbivory.jpg
+excerpt: LeafByte is a free and open source mobile app for measuring herbivory quickly and accurately.
 ---
 
 # Is LeafByte right for me?
