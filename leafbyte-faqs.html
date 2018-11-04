@@ -192,9 +192,15 @@ Released for free under the Creative Commons Attribution 3.0 license (templated.
 					<p>You can download a document with scales of different sizes <a href="assets/LeafByte%20Scale%20Dots.pdf">here</a>, or make your own (make four dots in a square). Just be sure to measure it before use, and enter the size in the Settings. Size is measured from the center of one dot to another along one side of the square.</p>
 
 					<font size="4">
-						<b>How do the calculations work?</b>
+						<b>How do the calculations work? What's the computer science behind LeafByte?</b>
 					</font>
-					<p>TODO TODO Longs story short: Long explanation:</p>
+					<ul style="list-style: disc outside none; text-align: left;">
+						<li><p><i>Background Removal:</i> The background is removed by <a href="https://en.wikipedia.org/wiki/Thresholding_(image_processing)">thresholding</a>, where any pixels lighter than a cutoff level are removed. The cutoff level is automatically determined by <a href="https://en.wikipedia.org/wiki/Otsu%27s_method">Otsu's method</a>, which looks at a histogram of pixel brightnesses and finds the brightness level that most clearly separates the histogram into two distinct sections. The user can adjust this cutoff if needed.</p></li>
+
+						<li><p><i>Scale Identification:</i> The various objects in the image are found with <a href="https://en.wikipedia.org/wiki/Connected-component_labeling">connected-components labeling</a>, which identifies blobs of contiguous pixels. LeafByte assumes that the leaf is the largest object and the four dots of the scale are the next largest objects. The user can adjust the identification if needed.</p></li>
+
+						<li><p><i>Results:</i> Any skew from the angle the photo was taken at is corrected for by using <a href="https://en.wikipedia.org/wiki/Homography_(computer_vision)">planar homography</a> to adjust the image so that the scale marks make a square. Then <a href="https://en.wikipedia.org/wiki/Connected-component_labeling">connected-components labeling</a> is used again to find the holes in the leaf and pixels are counted.</p></li>
+					</ul>
 
 					<font size="4">
 						<b>Why do you use 4 dots instead of a line for a scale?</b>
