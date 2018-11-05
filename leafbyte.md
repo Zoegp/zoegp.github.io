@@ -27,10 +27,11 @@ intro:
 
 {% include feature_row id="intro" type="center" %}
 
-- Measures total leaf area, consumed leaf area, and percent consumed (correcting for the angle of the photo)
+- Measures total leaf area, consumed leaf area, and percent consumed
 - Automatically saves your data to Google Drive or your phone
-- Works for a wide variety of leaf shapes, including both simple and compound leaves, even measuring petals and flat flowers
+- Works for a wide variety of leaf shapes, including both simple and compound leaves
 - Reads barcodes and saves them with your data
 - Can be used non-destructively in the field
+- Corrects for skew from the angle of the photo
 
 {% include feature_row %}
