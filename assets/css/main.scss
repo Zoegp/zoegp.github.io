@@ -6,3 +6,8 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+.leafbyte-overview .archive__item-teaser img {
+    max-height: 400px;
+    width: auto;
+}

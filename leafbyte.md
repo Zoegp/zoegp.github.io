@@ -2,6 +2,8 @@
 layout: splash
 permalink: /leafbyte
 title: LeafByte
+classes:
+  - leafbyte-overview
 header:
   overlay_color: "#85a266"
   overlay_image: images/Herbivory.jpg
