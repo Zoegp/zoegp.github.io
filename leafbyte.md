@@ -25,12 +25,10 @@ intro:
 
 {% include feature_row id="intro" type="center" %}
 
-<ul style="font-size: 30px;">
-    <li><p>Measure absolute total leaf area, consumed leaf area, and percent consumed with correction for the angle of the photo</p></li>
-    <li><p>Automatically saves your data to Google Drive or your phone</p></li>
-    <li><p>LeafByte works for a wide variety of leaf shapes, including both simple and compound leaves, even measuring petals and flat flowers</p></li>
-    <li><p>Read barcodes and save them with your data</p></li>
-    <li><p>Measure non-destructively in the field</p></li>
-</ul>
+- Measure absolute total leaf area, consumed leaf area, and percent consumed with correction for the angle of the photo
+- Automatically saves your data to Google Drive or your phone
+- LeafByte works for a wide variety of leaf shapes, including both simple and compound leaves, even measuring petals and flat flowers
+- Read barcodes and save them with your data
+- Measure non-destructively in the field
 
 {% include feature_row %}
