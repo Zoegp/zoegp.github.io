@@ -268,15 +268,6 @@
     padding-right: gutter(1 of 12);
   }
 
-  a.btn::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-  }
-
   &--left {
     position: relative;
     float: left;
