@@ -48,11 +48,11 @@ LeafByte cannot automatically fill in damage to the margin, but you can touch *D
 ### Settings
 From the home screen, you can also choose *Settings* to reach a page of settings for the app:
 
-- **Data Save Location** chooses where the spreadsheet of data is saved. The choices are to not save at all, to save to the Files App, or to save to Google Drive.
-- **Image Save Location** chooses where the original images are saved. The choices are to not save at all, to save to the Files App, or to save to Google Drive.
-- **Dataset Name** chooses what to title the saved spreadsheet and images (previously used names are saved in order to easily append to that data).
-- **Scale Length** specifies how far it is between the centers of two dots on a side of the scale square (you can also change the units).
-- **Next Sample Number** determines the sample number associated with the next image to be processed and automatically counts up. This can also be changed throughout the process by touching the current sample number.
-- **Scan Barcodes?** determines whether a barcode should be scanned before each time a photo is taken (the barcode info is recorded in the saved spreadsheet). Leafbyte can read most common 1D and 2D barcode formats.
-- **Save GPS Location?** determines whether GPS info should be recorded with each data point. Note that getting GPS info may slow saving.
-- **Use Black Background?** should be set if the leaf is light, while the background is dark.
+- *Data Save Location* chooses where the spreadsheet of data is saved. The choices are to not save at all, to save to the Files App, or to save to Google Drive.
+- *Image Save Location* chooses where the original images are saved. The choices are to not save at all, to save to the Files App, or to save to Google Drive.
+- *Dataset Name* chooses what to title the saved spreadsheet and images (previously used names are saved in order to easily append to that data).
+- *Scale Length* specifies how far it is between the centers of two dots on a side of the scale square (you can also change the units).
+- *Next Sample Number* determines the sample number associated with the next image to be processed and automatically counts up. This can also be changed throughout the process by touching the current sample number.
+- *Scan Barcodes?* determines whether a barcode should be scanned before each time a photo is taken (the barcode info is recorded in the saved spreadsheet). Leafbyte can read most common 1D and 2D barcode formats.
+- *Save GPS Location?* determines whether GPS info should be recorded with each data point. Note that getting GPS info may slow saving.
+- *Use Black Background?* should be set if the leaf is light, while the background is dark.
