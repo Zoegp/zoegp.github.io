@@ -22,7 +22,7 @@ feature_row:
     title: "Step 3: Results"
     excerpt: "LeafByte automatically finds holes in the leaf, measuring areas and adding them to your spreadsheet. If the leaf margins have been eaten, you can draw them in."
 intro:
-  - excerpt: '<iframe width="560" height="315" src="https://www.youtube.com/embed/XzqOXfsB4kA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br /><br /><img src="/images/App%20Store%20Badge.svg" style="height: 60px;" alt="Download LeafByte on the App Store">'
+  - excerpt: '<iframe width="560" height="315" src="https://www.youtube.com/embed/XzqOXfsB4kA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br /><br /><img src="/images/App%20Store%20Badge.svg" style="height: 60px; display: block; margin-left: auto; margin-right: auto;" alt="Download LeafByte on the App Store">'
 ---
 
 {% include feature_row id="intro" type="center" %}
