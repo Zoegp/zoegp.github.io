@@ -124,7 +124,7 @@ Send an email to [leafbyte@zoegp.science](mailto:leafbyte@zoegp.science). If the
 * Scale length is now recorded in data sheets
 * No more accidentally swiping back from the drawing page
 * Leaf marker is now drawn at the top of the leaf to avoid covering anything
-* Undo now uses less memory on iPhone 5 and before
+* Undo now uses less memory (relevant on iPhone 5 and before)
 
 ##### How do I cite this in my paper?
 A manuscript is currently in prep; check back here for more information. The software can temporarily be referenced as follows:
@@ -136,4 +136,4 @@ LeafByte itself gathers no data. We do not see or collect any information from o
 Apple (not us) does gather some info about all apps in the App Store, such as usage info (e.g. how often is the app downloaded, does it get used) and crash reports (e.g. how many times did the app crash, what line of code did it crash on). We will likely be checking the crash reports to ensure LeafByte is not buggy and to fix bugs if they do occur. Note that these crash reports just tell us the line in our code; they don't tell us what you were doing or what data was involved.
 
 ##### Who made this?
-LeafByte was made by Zoe Getman-Pickering and Adam Campbell. Zoe is a PhD candidate in Cornell's Department of Entomology. Adam is a software engineer at Palantir. Nick Aflitto, Ari Grele, George Stack, Todd Ugine, Julie Davis, Heather Grab, Jose Rangel, Sheyla Finkner, Sheyla Lugay Fiona MacNeil, and Abby Davis all worked on testing the app and contributed ideas for features and improvements. Nick Aflitto and Julia Miller took photos for the website and tutorial respectively.
+LeafByte was made by Zoe Getman-Pickering and Adam Campbell. Zoe is a PhD candidate in Cornell's Department of Entomology. Adam is a software engineer at Palantir. Nick Aflitto, Ari Grele, George Stack, Todd Ugine, Julie Davis, Heather Grab, Jose Rangel, Sheyla Finkner, Sheyla Lugay Fiona MacNeil, and Abby Davis all worked on testing the app and contributed ideas for features and improvements. Eric Raboin helped with the projective geometry equations. Nick Aflitto and Julia Miller took photos for the website and tutorial respectively.
