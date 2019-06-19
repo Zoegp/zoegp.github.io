@@ -126,7 +126,7 @@ Send an email to [leafbyte@zoegp.science](mailto:leafbyte@zoegp.science). If the
 * Leaf marker is now drawn at the top of the leaf to avoid covering anything
 * Undo now uses less memory (relevant on iPhone 5 and before)
 
-1.2.0 (Upcoming)
+1.2.0 (June 19, 2019)
 * Greater zoom is now supported (previously the maximum zoom was 10x; now it's 50x)
 * Finding scale marks after user selection is now faster (helpful on older devices)
 * Sufficiently large objects are ignored during scale selection, as they're unlikely to be the scale, and they take a long time to process on older devices
