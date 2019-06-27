@@ -48,6 +48,7 @@ There are a number of other methods currently used for measuring leaf area and h
 
 Leafbyte improves on all of the above methods by quickly and accurately measuring leaf area, herbivory, and percent herbivory. It also records your data automatically in spreadsheets, reads barcodes, and records your location.
 
+
 # Tips for Use
 
 ##### What do I need to use LeafByte?
@@ -72,8 +73,8 @@ There are two main reasons. 1) If you're saving to Google Drive and your interne
 ##### What does *Image may be fuzzy* mean?
 This warning may be displayed on the Background Removal page if small adjustments to the slider would have significant effect on the image. This may indicate poor picture quality, perhaps due to low light, motion, or poor camera quality.
 
-##### I saved data or images to my phone, but I don't have have iOS 11, so I don't have the Files App. How do I get at my files?
-You can use iTunes to get files to your computer regardless of your iOS version.
+##### I saved data or images to my phone, but I don't have have iOS 11, so I don't have the Files App. How do I access my files?
+Plug your phone into a computer. You can use iTunes to get files to your computer regardless of your iOS version.
 
 ##### How do I change which Google account my data is being saved to?
 In the settings, choose *Sign out of Google*, then re-select *Google Drive* as your save location. You'll be prompted to sign in again, and you can do so with your preferred account.
@@ -91,16 +92,17 @@ You can download a document with scales of different sizes [here](LeafByte Scale
 
 - *Background Removal:* The background is removed by [thresholding](https://en.wikipedia.org/wiki/Thresholding_(image_processing)), where any pixels lighter than a cutoff level are removed. The cutoff level is automatically determined by [Otsu's method](https://en.wikipedia.org/wiki/Otsu%27s_method), which looks at a histogram of pixel brightnesses and finds the brightness level that most clearly separates the histogram into two distinct sections. The user can adjust this cutoff if needed.
 - *Scale Identification:* The various objects in the image are found with [connected-components labeling](https://en.wikipedia.org/wiki/Connected-component_labeling), which identifies blobs of contiguous pixels. LeafByte assumes that the leaf is the largest object and the four dots of the scale are the next largest objects. The user can adjust the identification if needed.
-- *Results:* Any skew from the angle the photo was taken at is corrected for by using [planar homography](https://en.wikipedia.org/wiki/Homography_(computer_vision)) to adjust the image so that the scale marks make a square. Then [connected-components labeling](https://en.wikipedia.org/wiki/Connected-component_labeling) is used again to find the holes in the leaf and pixels are counted.
+- *Results:* Skew from the angle the photo was taken at is corrected for by using [planar homography](https://en.wikipedia.org/wiki/Homography_(computer_vision)) to adjust the image so that the scale marks make a square. Then [connected-components labeling](https://en.wikipedia.org/wiki/Connected-component_labeling) is used again to find the holes in the leaf and pixels are counted.
 
 ##### When I draw in the app, how does that affect the measurements?
 Any areas enclosed by your drawings will be shaded in and counted as consumed leaf area (unless there's no path from the leaf to the enclosure; for example, a circle in open space). The lines you draw do not affect calculations in the places they overlap the leaf. In places where the drawn lines do not overlap the leaf, they will be counted as consumed area (unless there's no path from the leaf to the lines). In other words, drawing over an entire area is equivalent to just enclosing that area.
 
-##### Why do you use 4 dots instead of a line for a scale?
+##### Why do you use 4 dots instead of a line or ruler for a scale?
 Early iterations of LeafByte did use a single line as the scale. However, testing determined that photographing the leaf at even a seemgly reasonable angle could result in up to 40% distortion of the leaf’s absolute area. Having 4 dots in a square allows LeafByte to correct for most of the distortion from photographing at an angle. Now, taking the picture at even a 30 degree angle generally only leads to a 1-4% distortion of the leaf’s absolute area (due to the image capturing more shadow when at an angle).
 
 ##### I forgot to change the scale in the settings, so my data was anlyzed with the wrong scale! Can I fix my data without reanalyzing each leaf?
 Simply use the following equation to fix your data: correctData = wrongData * rightScale^2 / wrongScale^2.
+
 
 # Contact and Logistics
 
@@ -141,4 +143,4 @@ LeafByte itself gathers no data. We do not see or collect any information from o
 Apple (not us) does gather some info about all apps in the App Store, such as usage info (e.g. how often is the app downloaded, does it get used) and crash reports (e.g. how many times did the app crash, what line of code did it crash on). We will likely be checking the crash reports to ensure LeafByte is not buggy and to fix bugs if they do occur. Note that these crash reports just tell us the line in our code; they don't tell us what you were doing or what data was involved.
 
 ##### Who made this?
-LeafByte was made by Zoe Getman-Pickering and Adam Campbell. Zoe is a PhD candidate in Cornell's Department of Entomology. Adam is a software engineer at Palantir. Nick Aflitto, Ari Grele, George Stack, Todd Ugine, Julie Davis, Heather Grab, Jose Rangel, Sheyla Finkner, Sheyla Lugay Fiona MacNeil, and Abby Davis all worked on testing the app and contributed ideas for features and improvements. Eric Raboin helped with the projective geometry equations. Nick Aflitto and Julia Miller took photos for the website and tutorial respectively.
+LeafByte was made by Zoe Getman-Pickering and Adam Campbell. Zoe is a PhD candidate in Cornell's Department of Entomology. Adam is a software engineer at Palantir. Nick Aflitto, Ari Grele, George Stack, Todd Ugine, Julie Davis, Heather Grab, Jose Rangel, Sheyla Finkner, Sheyla Lugay Fiona MacNeil, and Abby Dittmar all worked on testing the app and contributed ideas for features and improvements. Eric Raboin helped with the projective geometry equations. Nick Aflitto and Julia Miller took photos for the website and tutorial respectively.
