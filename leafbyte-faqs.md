@@ -119,6 +119,8 @@ On [GitHub](https://github.com/akroy/leafbyte). Pull requests are welcome!
 Send an email to [leafbyte@zoegp.science](mailto:leafbyte@zoegp.science). If the problem is a bug, please include your iOS version, device model, and exactly what actions you were performing in the app when the bug happened. Without this information, we will have a hard time fixing the bug.
 
 ##### How has the app changed in different versions?
+You can see your version number in the settings.
+
 1.0.0 (Nov 6, 2018)
 * Original release
 
