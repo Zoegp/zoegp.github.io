@@ -16,7 +16,7 @@ excerpt: LeafByte is a free and open source mobile app for measuring herbivory q
 LeafByte is free.
 
 ##### What devices does this app work on?
-LeafByte is available on the [App Store](https://itunes.apple.com/us/app/leafbyte/id1362985339?mt=8) for Apple devices that run iOS 9 and above. (The UX is optimized for iPhone 5 and later, but LeafByte also works on iPhone 3 and 4 and iPads.) We are currently in the process of developing an Android version. If you would like to be emailed when the andoid version is released [let us know](mailto:leafbyte@zoegp.science?subject=Interest%20in%20LeafByte%20on%20Android&body=Hello,%0AI'd%20like%20to%20express%20my%20interest%20in%20using%20an%20Android%20version%20of%20LeafByte.%Please%tell%me%when%the%app%is%available.%0A%0AThanks!) if you need an Android version.
+LeafByte is available on the [App Store](https://itunes.apple.com/us/app/leafbyte/id1362985339?mt=8) for Apple devices that run iOS 9 and above. (The UX is optimized for iPhone 5 and later, but LeafByte also works on iPhone 3 and 4 and iPads.) We are currently in the process of developing an Android version. If you would like to be emailed when the andoid version is released [let us know](mailto:leafbyte@zoegp.science?subject=Interest%20in%20LeafByte%20on%20Android&body=Hello,%0AI'd%20like%20to%20express%20my%20interest%20in%20using%20an%20Android%20version%20of%20LeafByte.%20Please%20tell%20me%20when%20the%20app%20is%20available.%0A%0AThanks!)
 
 ##### Does this work for all different leaf shapes?
 LeafByte works for a wide variety of leaf shapes, including both simple and compound leaves. You can even measure petals and flat flowers. However, it may be difficult to use for plants with needles or lacy leaves like those in the Apiaceae family.
