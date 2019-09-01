@@ -100,7 +100,7 @@ Any areas enclosed by your drawings will be shaded in and counted as consumed le
 ##### Why do you use 4 dots instead of a line or ruler for a scale?
 Early iterations of LeafByte did use a single line as the scale. However, testing determined that photographing the leaf at even a seemgly reasonable angle could result in up to 40% distortion of the leaf’s absolute area. Having 4 dots in a square allows LeafByte to correct for most of the distortion from photographing at an angle. Now, taking the picture at even a 30 degree angle generally only leads to a 1-4% distortion of the leaf’s absolute area (due to the image capturing more shadow when at an angle).
 
-##### I forgot to change the scale in the settings, so my data was anlyzed with the wrong scale! Can I fix my data without reanalyzing each leaf?
+##### I forgot to change the scale in the settings, so my data was analyzed with the wrong scale! Can I fix my data without reanalyzing each leaf?
 Simply use the following equation to fix your data: correctData = wrongData * rightScale^2 / wrongScale^2.
 
 
