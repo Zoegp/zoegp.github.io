@@ -55,6 +55,10 @@ Leafbyte improves on all of the above methods by quickly and accurately measurin
 
 You will need a white background with 4 black dots in a square or a dark background with 4 white dots in a square. You can print a background [here](LeafByte Scale Dots.pdf). We recommend a clipboard.
 
+##### Do I really need to use a scale?
+
+If you want absolute measures and correction for photos taken at an angle, yes. If you're careful to take photos straight on and only need percent measures, a scale is not necessary.
+
 ##### My leaves are not flat. What can I do?
 We recommend using a matte screen protector or acetate sheet such as those found [here](https://www.amazon.com/gp/product/B07219ZSFT/ref=oh_aui_search_detailpage?ie=UTF8&psc=1) to keep the leaf flat.
 
