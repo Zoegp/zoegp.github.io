@@ -141,7 +141,8 @@ You can see your version number in the settings.
 
 ##### How do I cite this in my paper?
 A manuscript is currently in prep; check back here for more information. The software can temporarily be referenced as follows:
-Campbell, A. and Getman-Pickering, Z. (2018). LeafByte [iOS application]. Ithaca, NY. zoegp.science/leafbyte
+
+Getman-Pickering, Z. L., Campbell, A. T., Aflitto, N., Ugine, T. A., & Davis, J. (2019). LeafByte: A mobile application that measures leaf area and herbivory quickly and accurately/ bioRxiv. doi:10.1101/777516 preprint.
 
 ##### What data do you collect? What is LeafByte's privacy policy?
 LeafByte itself gathers no data. We do not see or collect any information from or about your Google account. We do not see the pictures you take or the data you measure. (you can [see all the code in LeafByte](https://github.com/akroy/leafbyte) if you want)
