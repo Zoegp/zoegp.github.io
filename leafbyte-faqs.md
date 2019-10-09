@@ -140,7 +140,7 @@ You can see your version number in the settings.
 * Sufficiently large objects are ignored during scale selection, as they're unlikely to be the scale, and they take a long time to process on older devices
 
 ##### How do I cite this in my paper?
-A manuscript is currently in prep; check back here for more information. The software can temporarily be referenced as follows:
+A manuscript is currently in review; check back here for more information. The software can temporarily be referenced with the preprint as follows:
 
 Getman-Pickering, Z. L., Campbell, A. T., Aflitto, N., Ugine, T. A., & Davis, J. (2019). LeafByte: A mobile application that measures leaf area and herbivory quickly and accurately. bioRxiv. doi:10.1101/777516 preprint.
 
