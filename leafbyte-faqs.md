@@ -139,6 +139,11 @@ You can see your version number in the settings.
 * Finding scale marks after user selection is now faster (helpful on older devices)
 * Sufficiently large objects are ignored during scale selection, as they're unlikely to be the scale, and they take a long time to process on older devices
 
+1.3.0 (Oct 9, 2019)
+* When data is added to Google Sheets, numbers are properly recognized as numbers
+* When Google Sheets are created, headers are frozen
+* The "Back" button is now more accurately labeled "Save" on the Settings page
+
 ##### How do I cite this in my paper?
 A manuscript is currently in review; check back here for more information. The software can temporarily be referenced with the preprint as follows:
 
