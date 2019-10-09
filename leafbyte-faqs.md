@@ -152,6 +152,7 @@ Apple (not us) does gather some info about all apps in the App Store, such as us
 ##### Who's talking about LeafByte?
 * [**Cornell Chronicle**: LeafByte app measures damage from chomping insects](https://news.cornell.edu/stories/2019/03/leafbyte-app-measures-damage-chomping-insects)
 * [**The Entomological Society of America's Entomology Today**: How a Team of Grad Students Built a Mobile App for Entomologists](https://entomologytoday.org/2019/08/19/how-team-grad-students-built-mobile-app-entomologists-leafbyte/)
+* [**Discussions on Twitter**](twitter.com/search?q=leafbyte)
 
 ##### Who made this?
 LeafByte was made by Zoe Getman-Pickering and Adam Campbell. Zoe is a PhD candidate in Cornell's Department of Entomology. Adam is a software engineer at Palantir. Nick Aflitto, Ari Grele, George Stack, Todd Ugine, Julie Davis, Heather Grab, Jose Rangel, Sheyla Finkner, Sheyla Lugay Fiona MacNeil, and Abby Dittmar all worked on testing the app and contributed ideas for features and improvements. Eric Raboin helped with the projective geometry equations. Nick Aflitto and Julia Miller took photos for the website and tutorial respectively.
