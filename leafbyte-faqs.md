@@ -68,6 +68,10 @@ Yes! If you are trying to measure light-colored leaf tissue such as white flower
 ##### What if most of the leaf was eaten?
 LeafByte can’t tell where the leaf was after it's been eaten. It’s up to the user to draw in missing margins. If you are afraid most or all of the leaf will be eaten, we recommend taking before and after measurements and subtracting to get leaf area consumed. This is often faster than drawing missing leaf margins in the app.
 
+
+##### My leaf has dentate margins, and I dont want to try redrawing all the spikes!
+When drawing in missing margins on dentate leaves, you can just draw a straight line 1/3 of the way up your spikes. This trick will not work with lobed leaves or other non trianguar margin shapes. 
+
 ##### What sizes of leaves can I use?
 LeafByte can handle any leaves that you can photograph clearly. Some iOS devices can’t handle very tiny macro photography without a macro lense attachment. If you want to measure very large leaves like maize, consider a large white tarp with 4 dots in a square (which can be drawn on with a marker).
 
