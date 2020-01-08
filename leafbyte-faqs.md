@@ -98,7 +98,7 @@ You can download a document with scales of different sizes [here](LeafByte Scale
 
 ##### How do the calculations work? What's the computer science behind LeafByte?
 
-You can read about how the app works in our [publication] (https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13340) in Methods in Ecology and Evolution. 
+You can read about how the app works in our [publication](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13340) in Methods in Ecology and Evolution. 
 
 - *Background Removal:* The background is removed by [thresholding](https://en.wikipedia.org/wiki/Thresholding_(image_processing)), where any pixels lighter than a cutoff level are removed. The cutoff level is automatically determined by [Otsu's method](https://en.wikipedia.org/wiki/Otsu%27s_method), which looks at a histogram of pixel brightnesses and finds the brightness level that most clearly separates the histogram into two distinct sections. The user can adjust this cutoff if needed.
 - *Scale Identification:* The various objects in the image are found with [connected-components labeling](https://en.wikipedia.org/wiki/Connected-component_labeling), which identifies blobs of contiguous pixels. LeafByte assumes that the leaf is the largest object and the four dots of the scale are the next largest objects. The user can adjust the identification if needed.
