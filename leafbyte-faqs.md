@@ -98,11 +98,11 @@ You can download a document with scales of different sizes [here](LeafByte Scale
 
 ##### How do the calculations work? What's the computer science behind LeafByte?
 
-You can read about how the app works in our [publication](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13340) in Methods in Ecology and Evolution. 
-
 - *Background Removal:* The background is removed by [thresholding](https://en.wikipedia.org/wiki/Thresholding_(image_processing)), where any pixels lighter than a cutoff level are removed. The cutoff level is automatically determined by [Otsu's method](https://en.wikipedia.org/wiki/Otsu%27s_method), which looks at a histogram of pixel brightnesses and finds the brightness level that most clearly separates the histogram into two distinct sections. The user can adjust this cutoff if needed.
 - *Scale Identification:* The various objects in the image are found with [connected-components labeling](https://en.wikipedia.org/wiki/Connected-component_labeling), which identifies blobs of contiguous pixels. LeafByte assumes that the leaf is the largest object and the four dots of the scale are the next largest objects. The user can adjust the identification if needed.
 - *Results:* Skew from the angle the photo was taken at is corrected for by using [planar homography](https://en.wikipedia.org/wiki/Homography_(computer_vision)) to adjust the image so that the scale marks make a square. Then [connected-components labeling](https://en.wikipedia.org/wiki/Connected-component_labeling) is used again to find the holes in the leaf, and pixels are counted.
+
+You can read more details in our [publication](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13340) in *Methods in Ecology and Evolution*.
 
 ##### When I draw in the app, how does that affect the measurements?
 Any areas enclosed by your drawings will be shaded in and counted as consumed leaf area (unless there's no path from the leaf to the enclosure; for example, a circle in open space). The lines you draw do not affect calculations in the places they overlap the leaf. In places where the drawn lines do not overlap the leaf, they will be counted as consumed area (unless there's no path from the leaf to the lines). In other words, drawing over an entire area is equivalent to just enclosing that area.
@@ -123,7 +123,7 @@ Send an email to [leafbyte@zoegp.science](mailto:leafbyte@zoegp.science). We are
 Yes! Please do. LeafByte is free and open source under the GPL-3.0 license. That said, you're welcome to [reach out to us](mailto:leafbyte@zoegp.science) in case the change would fit in LeafByte itself. If you do amend our app, we ask that you share the changes free and open source for the community to benefit from.
 
 ##### Where can I find the code?
-The code is currently not available on GitHub as we sort out liscensing issues. Please contact us if you would like the code. 
+Please contact us if you would like the code.
 
 ##### I’m having problems with the app. What should I do?
 Send an email to [leafbyte@zoegp.science](mailto:leafbyte@zoegp.science). If the problem is a bug, please include your iOS version, device model, and exactly what actions you were performing in the app when the bug happened. Without this information, we will have a hard time fixing the bug.
@@ -151,7 +151,7 @@ You can see your version number in the settings.
 * The "Back" button is now more accurately labeled "Save" on the Settings page
 
 ##### How do I cite this in my paper?
-You can read the paper [here](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13340) or use the citation below. 
+Our methods paper is available [here](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13340) and may be cited with the citation below.
 
 Getman‐Pickering, Z. L., Campbell, A., Aflitto, N., Grele, A., Davis, J. K., & Ugine, T. A. (2020). LeafByte: A mobile application that measures leaf area and herbivory quickly and accurately. Methods in Ecology and Evolution, 2041–210X.13340. doi:10.1111/2041-210X.13340
 
