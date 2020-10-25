@@ -68,7 +68,6 @@ Yes! If you are trying to measure light-colored leaf tissue such as white flower
 ##### What if most of the leaf was eaten?
 LeafByte can’t tell where the leaf was after it's been eaten. It’s up to the user to draw in missing margins. If you are afraid most or all of the leaf will be eaten, we recommend taking before and after measurements and subtracting to get leaf area consumed. This is often faster than drawing missing leaf margins in the app.
 
-
 ##### My leaf has dentate margins, and I don't want to try redrawing all the spikes!
 When drawing in missing margins on dentate leaves, you can just draw a straight line 1/3 of the way up your spikes (the math works out for that to be half the area of the spikes and half the area between the spikes). This trick will not work with lobed leaves or other non-trianguar margin shapes. 
 
