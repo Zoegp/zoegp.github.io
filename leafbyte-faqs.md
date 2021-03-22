@@ -122,7 +122,7 @@ Send an email to [leafbyte@zoegp.science](mailto:leafbyte@zoegp.science). We are
 Yes! Please do. LeafByte is free and open source under the GPL-3.0 license. That said, you're welcome to [reach out to us](mailto:leafbyte@zoegp.science) in case the change would fit in LeafByte itself. If you do amend our app, we ask that you share the changes free and open source for the community to benefit from.
 
 ##### Where can I find the code?
-Please contact us if you would like the code.
+On [GitHub](https://github.com/Cannoliopsida/leafbyte).
 
 ##### I’m having problems with the app. What should I do?
 Send an email to [leafbyte@zoegp.science](mailto:leafbyte@zoegp.science). If the problem is a bug, please include your iOS version, device model, and exactly what actions you were performing in the app when the bug happened. Without this information, we will have a hard time fixing the bug.
@@ -155,7 +155,7 @@ Our methods paper is available [here](https://besjournals.onlinelibrary.wiley.co
 Getman‐Pickering, Z. L., Campbell, A., Aflitto, N., Grele, A., Davis, J. K., & Ugine, T. A. (2020). LeafByte: A mobile application that measures leaf area and herbivory quickly and accurately. Methods in Ecology and Evolution, 2041–210X.13340. doi:10.1111/2041-210X.13340
 
 ##### What data do you collect? What is LeafByte's privacy policy?
-LeafByte itself gathers no data. We do not see or collect any information from or about your Google account. We do not see the pictures you take or the data you measure. (you can [see all the code in LeafByte](https://github.com/akroy/leafbyte) if you want)
+LeafByte itself gathers no data. We do not see or collect any information from or about your Google account. We do not see the pictures you take or the data you measure. (you can [see all the code in LeafByte](https://github.com/Cannoliopsida/leafbyte) if you want)
 
 Apple (not us) does gather some info about all apps in the App Store, such as usage info (e.g. how often is the app downloaded, does it get used) and crash reports (e.g. how many times did the app crash, what line of code did it crash on). We will likely be checking the crash reports to ensure LeafByte is not buggy and to fix bugs if they do occur. Note that these crash reports just tell us the line in our code; they don't tell us what you were doing or what data was involved.
 
