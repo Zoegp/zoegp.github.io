@@ -173,8 +173,10 @@ LeafByte of course needs Google Drive access to save to Google Drive. LeafByte r
 
 All that said, the Google sign-in will show these two pages:
 
-![The first page of Google sign-in](images/Login page 1.jpg)
-![The second page of Google sign-in](images/Login page 2.jpg)
+<p float="left">
+  <img src="images/Login page 1.jpg" width="300" alt="The first page of Google sign-in" />
+  <img src="images/Login page 2.jpg" width="300" alt="The second page of Google sign-in" /> 
+</p>
 
 Access to your Google user id is represented as "Associate you with your personal info on Google". We do not ever use the Google user id to access any personal info. The first page says "Google will share your name, email address, language preference, and profile picture with LeafByte." This is misleading, as Google never sends any of that info to us. It may be possible that we'd be able to use the user id to request that info, but [Google's docs](https://developers.google.com/identity/protocols/oauth2/scopes) suggest that we (appropriately) wouldn't even have access to that. 
 
@@ -182,7 +184,7 @@ You can [see all the code in LeafByte](https://github.com/TheBeruriahIncident/le
 
 It's worth noting that at some point between the initial release of LeafByte and the preparation for releasing 1.4.0, Google started automatically giving extra access to apps, without apps themselves even asking for it, since Google assumed everyone would want that access. It looked like this:
 
-![The old, bad Google sign-in](images/Old login page.jpg)
+<img src="images/Old login page.jpg" width="300" alt="The old, bad Google sign-in" />
 
 We never used any of that additional access, and once we found out this was happening, we rewrote our login to avoid being granted any extra access.
 
