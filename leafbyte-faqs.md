@@ -165,11 +165,13 @@ Apple (not us) does gather some info about all apps in the App Store, such as us
 ##### What access does LeafByte have to my Google Drive? Are you requesting too much access?
 LeafByte has no access to your Google Drive unless you choose to save to Google Drive and explicitly give LeafByte access. Even then, LeafByte requests the minimum access it needs.
 
-Specifically, LeafByte requests two permissions: the ability to get your Google user id (which is a large number that identifies you) and the ability to write to LeafByte's files in Google Drive. Note that LeafByte does not receive any access at all to files that it didn't create. On a [technical level](https://developers.google.com/identity/protocols/oauth2/scopes), LeafByte requests the `openid` and `https://www.googleapis.com/auth/drive.file` OAuth 2.0 scopes.
+Specifically, LeafByte requests two permissions: the ability to get your Google user id (which is a large number that identifies you) and the ability to write to LeafByte's files in Google Drive. Note that LeafByte does not receive any access to files that it didn't create. On a [technical level](https://developers.google.com/identity/protocols/oauth2/scopes), LeafByte requests the `openid` and `https://www.googleapis.com/auth/drive.file` OAuth 2.0 scopes.
 
-LeafByte needs the Google user id so that it works smoothly if multiple Google accounts are used with it. For example, suppose you save some data to your personal Google Drive and some other data to your lab's Google Drive. If we didn't get the Google user id, if you ever, ever signed into a different Google account, saving might crash under certain circumstances. Note that this Google user id never leaves your device: it is only used internally to avoid errors.
+LeafByte needs the Google user id so that it works smoothly if multiple Google accounts are used with it. Note that this Google user id never leaves your device: it is only used internally to avoid errors.
 
-LeafByte of course needs Google Drive access to save to Google Drive. LeafByte requests the level of access to only be able to access files that are used with LeafByte. Our usage is even more narrow than that, but that's the lowest access we can request. Specifically, we create new folders, put images in those folders, create datasheets, and append rows to those datasheets. We never edit previous images or data. We never even view/access the files we're creating and writing to, so LeafByte does not read or know about anything else you're adding to the datasheets.
+LeafByte of course needs Google Drive access to save to Google Drive. This allows LeafByte to create new folders, put images in those folders, create datasheets, and append rows to those datasheets. We never view/access, or edit previous images or data. 
+
+
 
 All that said, the Google sign-in will show these two pages:
 
@@ -180,7 +182,7 @@ All that said, the Google sign-in will show these two pages:
 
 Access to your Google user id is represented as "Associate you with your personal info on Google". We do not ever use the Google user id to access any personal info. The first page says "Google will share your name, email address, language preference, and profile picture with LeafByte." This is misleading, as Google never sends any of that info to us. It may be possible that we'd be able to use the user id to request that info, but [Google's docs](https://developers.google.com/identity/protocols/oauth2/scopes) suggest that we (appropriately) wouldn't even have access to that. 
 
-You can [see all the code in LeafByte](https://github.com/TheBeruriahIncident/leafbyte) and validate all of this.
+To reiterate, LeafByte itself gathers no data. We do not see or collect any information from or about your Google account. We do not see the pictures you take or the data you measure, or even the fact that you used the app. You can [see all the code in LeafByte](https://github.com/TheBeruriahIncident/leafbyte) and validate all of this.
 
 It's worth noting that at some point between the initial release of LeafByte and the preparation for releasing 1.4.0, Google started automatically giving extra access to apps, without apps themselves even asking for it, since Google assumed everyone would want that access. It looked like this:
 
@@ -189,6 +191,9 @@ It's worth noting that at some point between the initial release of LeafByte and
 We never used any of that additional access, and once we found out this was happening, we rewrote our login to avoid being granted any extra access.
 
 You can always explicitly revoke any access you've given to LeafByte. Here are [Google's instructions to do so](https://support.google.com/accounts/answer/13533235?hl=en).
+
+To reiterate, LeafByte itself gathers no data. We do not see or collect any information from or about your Google account. We do not see the pictures you take or the data you measure. You can [see all the code in LeafByte](https://github.com/TheBeruriahIncident/leafbyte) and validate all of this.
+
 
 ##### Who's talking about LeafByte?
 * [**Cornell Chronicle**: LeafByte app measures damage from chomping insects](https://news.cornell.edu/stories/2019/03/leafbyte-app-measures-damage-chomping-insects)
