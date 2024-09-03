@@ -78,7 +78,7 @@ When drawing in missing margins on dentate leaves, you can just draw a straight 
 LeafByte can handle any leaves that you can photograph clearly. Some iOS devices can’t handle very tiny macro photography without a macro lense attachment. If you want to measure very large leaves like maize, consider a large white tarp with 4 dots in a square (which can be drawn on with a marker).
 
 ##### Why is saving sometimes slow?
-There are two main reasons. 1) If you're saving to Google Drive and your internet is slow, saving will be slow. You can choose to save to the Files App on your phone to avoid using the internet. 2) Requesting phone GPS location can be slow in certain circumstances, so if you're saving GPS info, you may experience (sometimes intermittent) slowness. Disable *Save GPS Location* in the settings to speed things up.
+There are two main reasons. 1) If you're saving to Google Drive and your internet is slow, saving will be slow. You can choose to save to the Files App on your phone to avoid using the internet. 2) Requesting phone GPS location can be slow in certain circumstances (including when you have poor signal), so if you're saving GPS info, you may experience (sometimes intermittent) slowness. Disable *Save GPS Location* in the settings to speed things up.
 
 ##### What does *Image may be fuzzy* mean?
 This warning may be displayed on the Background Removal page if small adjustments to the slider would have significant effect on the image. This may indicate poor picture quality, perhaps due to low light, motion, or poor camera quality.
