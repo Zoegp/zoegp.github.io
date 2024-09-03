@@ -14,5 +14,3 @@ Questions, sugggestions, issues, testimonials, etc are all welcome!
 
 # To reach Zoe:
 Email: [zg94@cornell.edu](mailto:zg94@cornell.edu)
-
-Twitter: [@Herbivory1](https://twitter.com/Herbivory1)
