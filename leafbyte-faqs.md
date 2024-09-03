@@ -84,7 +84,10 @@ There are two main reasons. 1) If you're saving to Google Drive and your interne
 This warning may be displayed on the Background Removal page if small adjustments to the slider would have significant effect on the image. This may indicate poor picture quality, perhaps due to low light, motion, or poor camera quality.
 
 ##### I saved data or images to my phone, but I don't have have iOS 11, so I don't have the Files App. How do I access my files?
-Plug your phone into a computer. You can use iTunes to get files to your computer regardless of your iOS version.
+See "How do I access my Files App data on my computer?" below.
+
+##### How do I access my Files App data on my computer?
+Plug your phone into a computer. On an older Mac, you can use iTunes to get files to your computer regardless of your iOS version. On a newer Mac, you can use Finder (full Finder interactions don't seem to work, so you may have to drag-and-drop the folder for your dataset to another folder on your computer in order to copy-paste off of the phone). On Windows, you should be able to achieve the same with File Explorer.
 
 ##### How do I change which Google account my data is being saved to?
 In the settings, choose *Sign out of Google*, then re-select *Google Drive* as your save location. You'll be prompted to sign in again, and you can do so with your preferred account.
